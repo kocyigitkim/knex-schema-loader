@@ -1,0 +1,23 @@
+{
+  "name": "knex-schema-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kocyigitkim/knex-schema-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kocyigitkim/knex-schema-loader/issues"
+  },
+  "homepage": "https://github.com/kocyigitkim/knex-schema-loader#readme",
+  "dependencies": {
+    "knex": "^0.95.6",
+    "mssql": "^7.1.0"
+  }
+}
