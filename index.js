@@ -21,7 +21,7 @@ class TableColumn {
  * @param {knex} knex 
  * @param {String} tableName 
  * @param {String} schemaName 
- * @returns 
+ * @returns {TableColumn[]}
  */
 async function getColumns(knex, tableName, schemaName = 'dbo') {
   const client = knex.context.client.config.client.toLowerCase();
